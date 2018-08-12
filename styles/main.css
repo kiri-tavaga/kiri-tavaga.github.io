@@ -1,0 +1,10 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aquamarine
+}
+h1{
+    colour:#555;
+}
+p{
+    padding:10px 0px;
+}
