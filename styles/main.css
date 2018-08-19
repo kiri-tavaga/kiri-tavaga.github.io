@@ -23,14 +23,26 @@ body, html {
         .columns:first-child {
           margin-left: 0; }
         }
-h1, h5, p {
+h1, {
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     text-transform: uppercase;
-    color: grey;
+    color:grey;
+}
+h5, p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color:white;
 }
 header {
     background-color: burlywood
+}
+.container {
+    align-content: center;
+    justify-content: center;
+    width: auto;
+    height: auto;
 }
 .hero-text {
     text-align: center;
@@ -57,13 +69,19 @@ header {
         line-height: 1.6;
         font-weight: 400;
         font-family: "Open sans", sans-serif;
-        color: grey
+        color: white
     }
-    h1, h2, h5, p {
+    h1 {
         font-family: 'Open Sans', sans-serif;
         text-align: center;
         text-transform: uppercase;
         color: grey;
+    }
+    h2, h5, p {
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
     }
     .hero-text {
         text-align: center;
@@ -71,7 +89,7 @@ header {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        color: grey;
+        color:white;
         }
 * {
     box-sizing: border-box;}
