@@ -114,8 +114,3 @@ ul {
     transform: translate(-50%, -50%);
     color: grey;
     }
-.row::after {
-    content: "images/wireframe-index-page-mobile.jpg";
-    clear: both;
-    display: table;
-    }
