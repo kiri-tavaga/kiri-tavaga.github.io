@@ -34,13 +34,6 @@ body, html {
     p {
     color: whitesmoke;
     }
-    .flex-container {
-        content: "images/wireframe-index-page-mobile.jpg";
-        content: "images/wireframe-blog-page-mobile.jpg";
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
     .list {
         color: grey;
     }
