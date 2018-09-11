@@ -6,24 +6,23 @@ body, html {
     padding: 1rem 0 5rem;
 }
 .title {
-    background-size: cover;
     background-image: url("https://kiri-tavaga.github.io/images/Tongariro.jpg");
+    background-size: cover;
     color: white;
-    font-family: 'Open Sans', sans-serif;     
-}
+    font-family: 'Open Sans', sans-serif;  }   
+    h1, {
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        text-transform: uppercase;
+        color:grey;
+    }
+    h5, p {
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        text-transform: uppercase;
+        color:white;
+    }
 .section {
     padding: 5rem 0 5rem;
     text-align: center;
-}
-h1, {
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    text-transform: uppercase;
-    color:grey;
-}
-h5, p {
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    text-transform: uppercase;
-    color:white;
 }
