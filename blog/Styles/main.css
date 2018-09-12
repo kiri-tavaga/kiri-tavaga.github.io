@@ -42,10 +42,10 @@ body, html {
     border: solid 2px black;
     border-radius: 8px;
     padding: 0 0 5rem;
-    background: color burlywood;
 }
 .blog-text {
     font-family: 'Open Sans', 'sans-serif';
+    color: grey;
 }
 .blog-image {
     width: 100%;
