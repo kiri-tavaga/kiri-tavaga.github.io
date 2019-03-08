@@ -11,6 +11,13 @@ body {
     flex-direction: column;
   }
 }
+.image {
+    width: auto;
+    size: medium;
+    height: auto;
+    text-align: center;
+    color: grey;
+}
 .title {
     color: white;
     font-family: 'Open Sans', sans-serif;
