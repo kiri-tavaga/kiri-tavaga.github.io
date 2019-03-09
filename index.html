@@ -3,72 +3,68 @@
   <head>
     <title>Our Web Dev Journey</title>
     <meta charset="UTF-8">
-    <style type="text/css" href="/sty"></style>
+    <style type="text/css"></style>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        .html {
-          background: url(img_drive.png) no-repeat center fixed; 
-          background-size: cover;
-        }
+    div.gallery {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 180px;
+    }
 
-        body {
-          color: white;
-        }
-        
-        .flex-container {
-          display: flex;
-          flex-direction: row;
-        }
-        .flex-container > div {
-          width: 100px;
-          margin: 10px;
-          text-align: center;
-          line-height: 75px;
-          font-size: 30px;
-        }
-        .hero-text {
-          text-align: center;
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          color: white;
-        }
+    div.gallery:hover {
+      border: 1px solid #777;
+    }
 
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
     </style>
-  </head>
-  <body>
+    </head>
+    <body>
       <nav>
-          <div class="nav-wrapper yellow">
-            <a href="/index.html"class="waves-effect waves-light grey btn">Home</a>
-            <a href="/DriverTraining.html" class="waves-effect waves-light grey btn-small">Driver Training</a>
-            <a href="/PortFitness.html" class="waves-effect waves-light grey btn-small">Port Fitness</a>
-            <a href="/WebDev.html" class="waves-effect waves-light grey btn-small">Web Dev</a>
-            <a href="/Contact.html" class="waves-effect waves-light grey btn-small">Contact</a>
-          </div>
-        </nav>
-          <div class="flex-container">
-            <div>
-            <span class="hero-text">Driver Training</span>
-              <div>Valuing a journey taken together.  Learning to drive, sharing life skills and preparing for your next steps</div>
-                <a href="/DriverTraining.html" class="btn-floating halfway-fab waves-effect waves-light yellow"><i class="material-icons">add</i></a>
-            </div>
-            <div>
-            <span class="hero-text">Port Fitness</span>
-              <div>A gym for our Port business community. PT Sessions and 45 min Fitness classes</div>
-                <a href="/PortFitness.html.html" class="btn-floating halfway-fab waves-effect waves-light yellow"><i class="material-icons">add</i></a>
-            </div>
-            <div>
-            <span class="hero-text">Web Development</span>
-              <div>Sharing knowledge and working together to build online business solutions</div>
-                <a href="/WebDev.html.html" class="btn-floating halfway-fab waves-effect waves-light yellow"><i class="material-icons">add</i></a>
-            </div>
-          </div>
-        <div class="footer yellow">
-          <h5 class="center-align">From Driver Trainer to Web Developer and everything in between</h5>
+        <div class="nav-wrapper yellow">
+          <a href="/index.html"class="waves-effect waves-light grey btn">Home</a>
+          <a href="/DriverTraining.html" class="waves-effect waves-light grey btn-small">Driver Training</a>
+          <a href="/PortFitness.html" class="waves-effect waves-light grey btn-small">Port Fitness</a>
+          <a href="/WebDev.html" class="waves-effect waves-light grey btn-small">Web Dev</a>
+          <a href="/Contact.html" class="waves-effect waves-light grey btn-small">Contact</a>
         </div>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>  
-  </body>
-</html>
+      </nav>
+        <div class="gallery">
+          <a target="_blank" href="/images/drive.png">
+            <img src="/images/drive.png" width="600" height="400">
+          </a>
+          <h3>Driver Training</h3>
+          <div class="desc">Valuing a journey taken together.  Learning to drive, sharing life skills and preparing for your next steps</div>
+        </div>
+
+        <div class="gallery">
+          <a target="_blank" href="/images/PortFit1.png">
+            <img src="/images/PortFit1.png" width="600" height="400">
+          </a>
+          <h3>Port Fitness</h3>
+          <div class="desc">A gym for our Port business community. PT Sessions and 45 min Fitness classes</div>
+        </div>
+
+        <div class="gallery">
+          <a target="_blank" href="images/Tongariro.jpg">
+            <img src="images/Tongariro.jpg" width="600" height="400">
+          </a>
+          <div class="desc">Sharing knowledge and working together to build online business solutions</div>
+        </div>
+        <div class="footer yellow">
+            <h5 class="center-align">From Driver Trainer to Web Developer and everything in between</h5>
+          </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>  
+    </body>
+</html>        
