@@ -8,32 +8,26 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
+        .html {
+          background: url(/images/drive.png) no-repeat center fixed; 
+          background-size: cover;
+        }
+
         body {
-          margin: 0;
-          font-family: Arial, Helvetica, sans-serif;
+          color: whitesmoke;
         }
         
-        .hero-image {
-          background: url(/images/drive.png) no-repeat center; 
-          background-size: cover;
-          height: 500px;
-          position: relative;
+        .flex-container {
+          display: flex;
+          flex-direction: row;
         }
-
-        .hero-image port{
-          background: url(/images/PortFit1.png) no-repeat center; 
-          background-size: cover;
-          height: 500px;
-          position: relative;
+        .flex-container > div {
+          width: 100px;
+          margin: 10px;
+          text-align: center;
+          line-height: 75px;
+          font-size: 30px;
         }
-
-        .hero-image web{
-          background: url(/images/Tongariro.png) no-repeat center; 
-          background-size: cover;
-          height: 500px;
-          position: relative;
-        }
-
         .hero-text {
           text-align: center;
           position: absolute;
@@ -42,52 +36,33 @@
           transform: translate(-50%, -50%);
           color: white;
         }
+
     </style>
   </head>
   <body>
       <nav>
           <div class="nav-wrapper yellow">
             <a href="/index.html"class="waves-effect waves-light grey btn">Home</a>
-            <ul>
-              <a href="/DriverTraining.html" class="waves-effect waves-light grey btn-small">Driver Training</a>
-              <a href="/PortFitness.html" class="waves-effect waves-light grey btn-small">Port Fitness</a>
-              <a href="/WebDev.html" class="waves-effect waves-light grey btn-small">Web Dev</a>
-              <a href="/Contact.html" class="waves-effect waves-light grey btn-small">Contact</a>
-            </ul>
+            <a href="/DriverTraining.html" class="waves-effect waves-light grey btn-small">Driver Training</a>
+            <a href="/PortFitness.html" class="waves-effect waves-light grey btn-small">Port Fitness</a>
+            <a href="/WebDev.html" class="waves-effect waves-light grey btn-small">Web Dev</a>
+            <a href="/Contact.html" class="waves-effect waves-light grey btn-small">Contact</a>
           </div>
         </nav>
-          <div class="row">
-            <div class="col s12">
-              <div class="hero-image">
-                <div class="hero-text">
-                <span class="title">Driver Training</span>
-                  <p class="center-align grey">Valuing a journey taken together.  Learning to drive, sharing life skills and preparing for your next steps</p>
-                </div>
+          <div class="flex-container">
+            <span class="hero-text">Driver Training</span>
+              <div>Valuing a journey taken together.  Learning to drive, sharing life skills and preparing for your next steps</div>
                 <a href="/DriverTraining.html" class="btn-floating halfway-fab waves-effect waves-light yellow"><i class="material-icons">add</i></a>
-              </div>
-            </div>
           </div>
-          <div class="row">
-            <div class="col s12">
-              <div class="hero-image port">
-                <div class="hero-text">
-                <span class="title">Port Fitness</span>
-                  <p class="center-align grey">A gym for our Port business community. PT Sessions and 45 min Fitness classes</p>
-                </div>
+          <div class="flex-container">
+            <span class="hero-text">Port Fitness</span>
+              <div>A gym for our Port business community. PT Sessions and 45 min Fitness classes</div>
                 <a href="/PortFitness.html.html" class="btn-floating halfway-fab waves-effect waves-light yellow"><i class="material-icons">add</i></a>
-              </div>
-            </div>
           </div>
-          <div class="row">
-            <div class="col s12">
-              <div class="hero-image web">
-                <div class="hero-text">
-                <span class="title">Web Development</span>
-                  <p class="center-align grey">Sharing knowledge and working together to build online business solutions</p>
-                </div>
+          <div class="flex-container">
+            <span class="hero-text">Web Development</span>
+              <div>Sharing knowledge and working together to build online business solutions</div>
                 <a href="/WebDev.html.html" class="btn-floating halfway-fab waves-effect waves-light yellow"><i class="material-icons">add</i></a>
-              </div>
-            </div>
           </div>
         <div class="footer yellow">
           <h5 class="center-align">From Driver Trainer to Web Developer and everything in between</h5>
