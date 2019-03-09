@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
+    html {
+      background-color: #777
+    }
+
     div.gallery {
       margin: 5px;
       border: 1px solid #ccc;
@@ -33,14 +37,17 @@
     <body>
       <nav>
         <div class="nav-wrapper yellow">
+          <span class="center-align">
           <a href="/index.html"class="waves-effect waves-light grey btn">Home</a>
           <a href="/DriverTraining.html" class="waves-effect waves-light grey btn-small">Driver Training</a>
           <a href="/PortFitness.html" class="waves-effect waves-light grey btn-small">Port Fitness</a>
           <a href="/WebDev.html" class="waves-effect waves-light grey btn-small">Web Dev</a>
           <a href="/Contact.html" class="waves-effect waves-light grey btn-small">Contact</a>
+          </span>
         </div>
       </nav>
-        <div class="gallery">
+      <div class="container">
+        <div class="gallery center-align">
           <a target="_blank" href="/images/drive.png">
             <img src="/images/drive.png" width="600" height="400">
           </a>
@@ -48,7 +55,7 @@
           <div class="desc">Valuing a journey taken together.  Learning to drive, sharing life skills and preparing for your next steps</div>
         </div>
 
-        <div class="gallery">
+        <div class="gallery center-align">
           <a target="_blank" href="/images/PortFit1.png">
             <img src="/images/PortFit1.png" width="600" height="400">
           </a>
@@ -56,12 +63,14 @@
           <div class="desc">A gym for our Port business community. PT Sessions and 45 min Fitness classes</div>
         </div>
 
-        <div class="gallery">
+        <div class="gallery center-align">
           <a target="_blank" href="images/Tongariro.jpg">
             <img src="images/Tongariro.jpg" width="600" height="400">
           </a>
           <div class="desc">Sharing knowledge and working together to build online business solutions</div>
         </div>
+      </div>
+
         <div class="footer yellow">
             <h5 class="center-align">From Driver Trainer to Web Developer and everything in between</h5>
           </div>
