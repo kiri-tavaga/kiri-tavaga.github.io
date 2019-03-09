@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box;
 }
+html {
+  background: url(img_drive.png) no-repeat center;
+  background-size: cover;
+}
 
 body {
   font-family: Arial, Helvetica, sans-serif;
